@@ -1,0 +1,18 @@
+This is a set of scripts that will be able to manipulate the Gnucash
+XML files.
+
+Targeted audience are people who want to interface the Gnucash XML file
+with Perl.
+
+It's pretty immature yet but it works for my own private accounting file
+so I guess the most important features are supported.
+
+To test, run:
+
+	$ ./foo.pl <your-gnucash-xml-file>
+
+and you'll get the same file reformatted on output. My gnucash can read
+the script's output and it looks fine.
+
+Tested with Gnucash 2.2.9.
+
